@@ -99,8 +99,8 @@ Spring ◀── 검증 결과(접촉·최소 간격·지연·수행률) ── 
 
 <table>
 <tr>
-<td width="57%" align="center"><a href="docs/isaac_sim/demo_verify_48_n11_1.mp4"><img src="docs/isaac_sim/preview_top.jpg" alt="3D 주행 검증 상단 시점"></a></td>
-<td width="43%" align="center"><a href="docs/isaac_sim/demo_verify_48_n11_1_fpv.mp4"><img src="docs/isaac_sim/preview_follow.jpg" alt="3D 주행 검증 로봇 추종 시점"></a></td>
+<td width="50%" align="center"><a href="docs/isaac_sim/demo_verify_48_n11_1.mp4"><img src="docs/isaac_sim/isaac_sim_top.gif" alt="3D 주행 검증 상단 시점"></a></td>
+<td width="50%" align="center"><a href="docs/isaac_sim/demo_verify_48_n11_1_fpv.mp4"><img src="docs/isaac_sim/isaac_sim_follow.gif" alt="3D 주행 검증 로봇 추종 시점"></a></td>
 </tr>
 <tr>
 <td align="center"><b>상단 시점</b> — AMR 11대 · 피크 작업 10분<br>로봇별 단계(이동·싣기·운반·내리기·대기)와 배송 완료 수</td>
@@ -108,7 +108,7 @@ Spring ◀── 검증 결과(접촉·최소 간격·지연·수행률) ── 
 </tr>
 </table>
 
-견적 48번의 11대 검증 1회차 영상입니다(10분 구간 → 2분 12초). 이미지를 누르면 영상 파일로 이동합니다.
+견적 48번의 11대 검증 1회차에서 5초씩 발췌한 GIF입니다. 누르면 전체 영상(10분 구간을 2분 12초로 압축)으로 이동합니다.
 
 <table>
 <tr>
@@ -197,7 +197,7 @@ Isaac Sim에서 쓴 AMR 모델입니다. 구동부(iw.hub)에 3단 적재 선반
 
 | 경로 | 내용 |
 | --- | --- |
-| [`docs/isaac_sim/`](docs/isaac_sim/) | 3D 주행 검증 영상 2개(상단·추종 시점)와 미리보기 이미지 |
+| [`docs/isaac_sim/`](docs/isaac_sim/) | 3D 주행 검증 영상 2개(상단·추종 시점)와 5초 발췌 GIF |
 | [`docs/AMR/`](docs/AMR/) | 적재 선반 AMR 모델 렌더 3장 |
 | [`docs/fms/fms.gif`](docs/fms/fms.gif) | 이산 시뮬레이션 2D 리플레이 |
 | [`docs/infra/fms_multicore.gif`](docs/infra/fms_multicore.gif) | 대수별 시뮬레이션이 워커 병렬로 진행되는 화면 |
